@@ -8,5 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(CApp VERSION 0.1.0 LANGUAGES C CXX)
 
+include(Dependencies.cmake)
+
 add_subdirectory(Source/Core)
 add_subdirectory(Source/App)
+add_subdirectory(Source/Sandbox)
